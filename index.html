@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button id="btnStart"><span class="st">St</span><span class="art">art</span></button>
+    </div>
+    
+    <div class="boy"></div>    
+    <div class="girl"></div>
+    <div>
+        <label class='lblNext'><span class=""><span>Can</span><span> you Guess the Gender?</span></label>
+        <button id="imgSet0Next"><span class="spanRev">Ne</span><span class="spanEal">xt</span></button>
+    </div>
+
+    <div class="scanPics">
+        <img class="img1 rotateimg" src="/images/1a.jpg" alt="" width="500px" height="500px">
+        <img class="img2 rotateimg" src="/images/2a.jpg" alt="" width="500px" height="500px">
+        <button id="imgSet1Next">Next</button>
+        <button id="imgSet1Back">Back</button>
+        <img class="img3 rotateimg" src="/images/3a.jpg" alt="" width="500px" height="500px">
+        <img class="img4 rotateimg" src="/images/4a.jpg" alt="" width="500px" height="500px">
+        <button id="imgSet2Next">Next</button>
+        <button id="imgSet2Back">Back</button>
+        <img class="img5 rotateimg" src="/images/5a.jpg" alt="" width="500px" height="500px">
+        <button id="imgSet3Next">Reveal</button>
+        <button id="imgSet3Back">Back</button>
+    </div>
+
+    <div>
+        <p class="itsP">IT'S A....</p>
+        <button id="nextBtn">Next</button>
+        <button id="backBtn">Back</button>
+        <p class="boyReveal">BOY!!!!</p>
+        <marquee behavior="scroll" scrollamount='1' direction="left" width='500px'>
+            
+        </marquee>
+        <button id="lastBackBtn">Back</button>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
